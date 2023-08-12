@@ -15,4 +15,4 @@ Using Effect Hook we can perform actions like,
 - Making API Call
 - Using Scheduler methods like setInterval( )
 - DOM Manipulations, etc.
-Syntax: `useEffect(effect)`
+Syntax: `**useEffect(effect)**`
