@@ -3,5 +3,4 @@
 - React Hooks
   - Effect Hook
 - Effect Hook
-  - Code Execution Flow
 - Rules of Hooks
