@@ -19,7 +19,7 @@ Using Effect Hook we can perform actions like,
 ### Syntax: `useEffect(effect)`
 The useEffect accepts *effect* as an argument, where the effect is a callback function.
 
-#### Updating Browser title using Effect Hook
+### Updating Browser title using Effect Hook
 Using the ***title*** property provided by the DOM object we can update the Browser title.
 
 Import the useEffect from the react and call it inside the component.
@@ -34,4 +34,16 @@ useEffect((score) => {
 })
 ```
 ### Accessing State values
-If you access the new state value immediately after updating the state in Event handlers, you may not get the updated value because ***state updates are asynchronous***
+- If you access the new state value immediately after updating the state in Event handlers, you may not get the updated value because ***state updates are asynchronous***
+```jsx
+const onIncrement = () => {
+  setScore(prevScore => prevScore + 1)
+  document.title = `Score: ${score}`
+ }
+```
+- Use Effect Hook, if you want to access new state values immediately after updating the state
+```jsx
+useEffect(() => {
+  document.title = `Score: ${score}`
+})
+```
