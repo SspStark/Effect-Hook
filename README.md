@@ -51,5 +51,5 @@ useEffect(() => {
 ## Rules of Hooks
 While writing/using the hooks you should follow the below rules,
 - Rule 1: Hooks should be called only at the top level.
-- Rule 2: Hooks should be called only inside React Function Components and Custom Hooks.
+- Rule 2: Hooks should be called only inside React Function Components and Custom Hooks.\
 React provides the eslint-plugin-react-hooks package that throws errors if we don’t follow these rules.
