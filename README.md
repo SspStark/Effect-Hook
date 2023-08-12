@@ -54,3 +54,4 @@ While writing/using the hooks you should follow the below rules,
 - Rule 2: Hooks should be called only inside React Function Components and Custom Hooks.
 
 React provides the eslint-plugin-react-hooks package that throws errors if we don’t follow these rules.
+- Have a look at resources.md file to know where you shouldn't use useEffect.
