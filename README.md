@@ -28,6 +28,8 @@ Import the useEffect from the react and call it inside the component.
 - React keeps track of the effect and executes it after the render.
 - All the state variables and props are accessible to the Effect.
 - If you try to pass arguments to effect and access them, you'll get undefined values.
-- `useEffect((score) => {
+```jsx
+useEffect((score) => {
   document.title = `Score: ${score}`
-})`
+})
+```
