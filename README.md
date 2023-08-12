@@ -5,7 +5,7 @@
 - Effect Hook
 - Rules of Hooks
 
-# Effect Hook
+## Effect Hook
 React provides a built-in hook called **useEffect** that allows executing logic after the component render.
 
 In general this useEffect hook can be simply called as Effect hook.
@@ -47,3 +47,9 @@ useEffect(() => {
   document.title = `Score: ${score}`
 })
 ```
+
+## Rules of Hooks
+While writing/using the hooks you should follow the below rules,
+- Rule 1: Hooks should be called only at the top level.
+- Rule 2: Hooks should be called only inside React Function Components and Custom Hooks.
+React provides the eslint-plugin-react-hooks package that throws errors if we don’t follow these rules.
