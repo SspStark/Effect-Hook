@@ -33,3 +33,5 @@ useEffect((score) => {
   document.title = `Score: ${score}`
 })
 ```
+### Accessing State values
+If you access the new state value immediately after updating the state in Event handlers, you may not get the updated value because ***state updates are asynchronous***
