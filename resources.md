@@ -1,4 +1,5 @@
 # Effect Hook and Rules of Hooks
+## [Scoreboard](https://sspscoreboard.ccbp.tech/)
 
 ## Don’t call Hooks inside Conditions
 
